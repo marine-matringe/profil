@@ -1,0 +1,148 @@
+body {
+	background-color: #DBEEF5;
+	color: #505050;
+	font-family: 'Roboto', sans-serif; 
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 35px;
+	color: #9CC7D7
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+a {
+	text-decoration: none; 
+	color: #9CC7D7;
+}
+
+.container {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#picture {
+	width: 175px;
+	height: 175px;
+}
+
+.img-circle {
+	border-radius: 50%
+}
+
+.img-bordered {
+	border: 4px solid #9CC7D7
+}
+
+.card-white {
+	background: white;
+	padding: 30px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin: 200px auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	box-shadow: 0px 2px 5px #505050;
+	text-align: center;
+	min-width: 300px;
+	max-width: 700px;
+}
+
+.card-white:hover {
+	transform: scale(1.025);
+}
+
+.first {
+	height: 450px;
+}
+
+.btn-blue {
+	background-color: #9CC7D7;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 10px;
+	font-size: 18px;
+}
+
+.btn-blue:hover {
+	background-color: #DCBCDD;
+	font-size : 19px;
+}
+
+.list-horizontal {
+	padding-left: 0;
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 15px;
+}
+
+.list-horizontal i {
+	font-size: 50px;
+}
+
+.list-horizontal i:hover {
+	color: #DCBCDD;
+	transform: scale(1.3);
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+.center-box {
+	display: flex;
+	justify-content: center;
+}
+
+.card-center {
+	background: white;
+	padding: 30px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 2px 5px #505050;
+	text-align: center;
+	height: 170px;
+	width: 300px;
+	min-width: 160px;
+}
+
+.card-center:hover {
+	transform: scale(1.025);
+}
+
+.last {
+	height: 200px;
+	margin-top: 50px;
+}
+
+.btn-vote {
+	background-color: #9CC7D7;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 10px;
+	font-size: 16px;
+}
+
+.btn-vote:hover {
+	font-size : 17px;
+}
+
+.yes:hover {
+	background-color: green;
+}
+
+.no:hover {
+	background-color: red;
+}
